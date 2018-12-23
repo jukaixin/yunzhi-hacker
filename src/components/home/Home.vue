@@ -50,6 +50,7 @@
                     <template slot="title">
                         <img src="../../assets/images/basic2x.png" alt="">
                         <span>基础管理</span>
+                        <!-- <i class="el-icon-arrow-right el-icon-arrow-down"></i> -->
                     </template>
                     <el-menu-item index="model">
                         <i></i>
@@ -169,14 +170,8 @@
 .el-menu {
     overflow-y: hidden;
     /* background-clip: border-box; */
-    /* border:2px solid #414b5a; */
+    box-sizing: border-box;
+    border:2px solid #414b5a;
 }
-.el-submenu__icon-arrow {
 
-}
-/* [class*=" el-icon-"]::before {
-    font-family: el-icon-arrow-right!important;
-} */
-/* el-icon-arrow-right */
-/* el-icon-arrow-down */
 </style>

@@ -1,0 +1,24 @@
+.el-table tr {
+    background-color: #f40!important;
+}
+.table-th {
+    text-align: center;
+    background: #d7d7d7;
+    height: 40px;
+    padding: 0;
+}
+
+.model a {
+    text-decoration: none;
+    color: #00a4f0;
+
+}
+.model a:nth-child(2) {
+    margin: 10px;
+}
+.el-breadcrumb {
+    height: 50px;
+    background: #fff;
+    line-height: 50px;
+    padding-left: 30px;
+}
